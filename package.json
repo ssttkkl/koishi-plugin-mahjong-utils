@@ -90,6 +90,8 @@
     "koishi-plugin-puppeteer": "^3.8.4",
     "koishi-plugin-rate-limit": "^2.0.4",
     "koishi-plugin-telemetry": "^0.2.3",
-    "koishi-plugin-theme-vanilla": "^1.0.6"
+    "koishi-plugin-theme-vanilla": "^1.0.6",
+    "mahjong-utils": "^0.5.2",
+    "mahjong-utils-entry": "^0.7.0"
   }
 }
