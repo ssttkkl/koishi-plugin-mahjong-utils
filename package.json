@@ -1,5 +1,5 @@
 {
-  "name": "koishi-plugin-mahjong-utils",
+  "name": "koishi-app",
   "version": "0.0.0",
   "packageManager": "yarn@4.1.0",
   "private": true,

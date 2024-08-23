@@ -4542,52 +4542,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"koishi-plugin-android@npm:^0.0.1":
-  version: 0.0.1
-  resolution: "koishi-plugin-android@npm:0.0.1"
-  peerDependencies:
-    koishi: ^4.15.7
-  checksum: 10c0/d053f4a6fa4252495d7936128d52c920f1918055d5c6e70411ed1666c82142d3715b0d97e6f07e0d4f7b685e5705419ef4d567522e584af6dcba89119412a511
-  languageName: node
-  linkType: hard
-
-"koishi-plugin-assets-local@npm:^3.3.2":
-  version: 3.3.2
-  resolution: "koishi-plugin-assets-local@npm:3.3.2"
-  dependencies:
-    "@koishijs/assets": "npm:^1.1.2"
-    file-type: "npm:^16.5.4"
-  peerDependencies:
-    koishi: ^4.17.7
-  checksum: 10c0/de92c3d62fb20f996127aad653bd7e59ee4c3dcd1489a877411562fadfb30d7eeb3a50b540ec82e87a264cde03386427a7512c4be7206d5bc4fb675acc58fffa
-  languageName: node
-  linkType: hard
-
-"koishi-plugin-dataview@npm:^2.6.1":
-  version: 2.7.4
-  resolution: "koishi-plugin-dataview@npm:2.7.4"
-  dependencies:
-    "@koishijs/console": "npm:^5.28.3"
-  peerDependencies:
-    "@koishijs/plugin-console": ^5.28.3
-    koishi: ^4.17.4
-  checksum: 10c0/6200787d98245dfe2a2aebcace4a7a7c6c50d115e380e05b729c869d4693ec03280187df00b0b6327cfa182294170bb02a3ae5e13856ad7bd09645eadf890b18
-  languageName: node
-  linkType: hard
-
-"koishi-plugin-desktop@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "koishi-plugin-desktop@npm:1.0.0"
-  peerDependencies:
-    "@koishijs/plugin-console": ^5.18.2
-    koishi: ^4.16.7
-  checksum: 10c0/a8b19ff404591456d1b9b4792fdb6fea73591161364b01b95faafd4c97ed3e8275aa90b4ba668eb81a08ec19b34e473c4b264222056849ecc043928d96789ab0
-  languageName: node
-  linkType: hard
-
-"koishi-plugin-mahjong-utils@workspace:.":
+"koishi-app@workspace:.":
   version: 0.0.0-use.local
-  resolution: "koishi-plugin-mahjong-utils@workspace:."
+  resolution: "koishi-app@workspace:."
   dependencies:
     "@koishijs/client": "npm:^5.29.3"
     "@koishijs/plugin-actions": "npm:^0.0.2"
@@ -4644,6 +4601,57 @@ __metadata:
     yakumo-esbuild: "npm:^1.0.0-beta.6"
     yakumo-tsc: "npm:^1.0.0-beta.4"
     yml-register: "npm:^1.2.5"
+  languageName: unknown
+  linkType: soft
+
+"koishi-plugin-android@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "koishi-plugin-android@npm:0.0.1"
+  peerDependencies:
+    koishi: ^4.15.7
+  checksum: 10c0/d053f4a6fa4252495d7936128d52c920f1918055d5c6e70411ed1666c82142d3715b0d97e6f07e0d4f7b685e5705419ef4d567522e584af6dcba89119412a511
+  languageName: node
+  linkType: hard
+
+"koishi-plugin-assets-local@npm:^3.3.2":
+  version: 3.3.2
+  resolution: "koishi-plugin-assets-local@npm:3.3.2"
+  dependencies:
+    "@koishijs/assets": "npm:^1.1.2"
+    file-type: "npm:^16.5.4"
+  peerDependencies:
+    koishi: ^4.17.7
+  checksum: 10c0/de92c3d62fb20f996127aad653bd7e59ee4c3dcd1489a877411562fadfb30d7eeb3a50b540ec82e87a264cde03386427a7512c4be7206d5bc4fb675acc58fffa
+  languageName: node
+  linkType: hard
+
+"koishi-plugin-dataview@npm:^2.6.1":
+  version: 2.7.4
+  resolution: "koishi-plugin-dataview@npm:2.7.4"
+  dependencies:
+    "@koishijs/console": "npm:^5.28.3"
+  peerDependencies:
+    "@koishijs/plugin-console": ^5.28.3
+    koishi: ^4.17.4
+  checksum: 10c0/6200787d98245dfe2a2aebcace4a7a7c6c50d115e380e05b729c869d4693ec03280187df00b0b6327cfa182294170bb02a3ae5e13856ad7bd09645eadf890b18
+  languageName: node
+  linkType: hard
+
+"koishi-plugin-desktop@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "koishi-plugin-desktop@npm:1.0.0"
+  peerDependencies:
+    "@koishijs/plugin-console": ^5.18.2
+    koishi: ^4.16.7
+  checksum: 10c0/a8b19ff404591456d1b9b4792fdb6fea73591161364b01b95faafd4c97ed3e8275aa90b4ba668eb81a08ec19b34e473c4b264222056849ecc043928d96789ab0
+  languageName: node
+  linkType: hard
+
+"koishi-plugin-mahjong-utils@workspace:external/mahjong-utils":
+  version: 0.0.0-use.local
+  resolution: "koishi-plugin-mahjong-utils@workspace:external/mahjong-utils"
+  peerDependencies:
+    koishi: ^4.17.11
   languageName: unknown
   linkType: soft
 

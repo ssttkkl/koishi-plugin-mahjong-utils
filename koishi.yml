@@ -1,71 +1,72 @@
 plugins:
   group:server:
-    server:
+    server:b9c8ub:
       port: 5140
       maxPort: 5149
-    ~server-satori: {}
-    ~server-temp: {}
+    ~server-satori:ahub2w: {}
+    ~server-temp:xuxij1: {}
   group:basic:
-    ~admin: {}
-    ~bind: {}
-    commands: {}
-    help: {}
-    http: {}
-    ~inspect: {}
-    locales: {}
-    proxy-agent: {}
-    rate-limit: {}
-    telemetry: {}
+    ~admin:a7497t: {}
+    ~bind:r1d9oz: {}
+    commands:synnqh: {}
+    help:69iq9w: {}
+    http:uv132i: {}
+    ~inspect:pfexxv: {}
+    locales:3xjzlt: {}
+    proxy-agent:8hv407: {}
+    rate-limit:s13d72: {}
+    telemetry:9gn72n: {}
   group:console:
-    actions: {}
-    analytics: {}
-    android:
+    actions:26swwb: {}
+    analytics:1umt1u: {}
+    android:u5u3ka:
       $if: env.KOISHI_AGENT?.includes('Android')
-    ~auth: {}
-    config: {}
-    console:
+    ~auth:wp5lbl: {}
+    config:wi8rqy: {}
+    console:jtdi29:
       open: true
-    dataview: {}
-    desktop:
+    dataview:2dib34: {}
+    desktop:t2b32z:
       $if: env.KOISHI_AGENT?.includes('Desktop')
-    explorer: {}
-    logger: {}
-    insight: {}
-    market:
+    explorer:eu1fyq: {}
+    logger:pl03gx: {}
+    insight:hw8eme: {}
+    market:8gek5d:
       search:
         endpoint: https://registry.koishi.chat/index.json
-    notifier: {}
-    oobe: {}
-    sandbox: {}
-    status: {}
-    theme-vanilla: {}
+    notifier:v53ovc: {}
+    oobe:0o4tgf: {}
+    sandbox:zq6vw5: {}
+    status:a3tijx: {}
+    theme-vanilla:qleyhg: {}
   group:storage:
-    ~database-mongo:
+    ~database-mongo:kp2ckd:
       database: koishi
-    ~database-mysql:
+    ~database-mysql:kwe0xn:
       database: koishi
-    ~database-postgres:
+    ~database-postgres:hntq3l:
       database: koishi
-    database-sqlite:
+    database-sqlite:7h3yc5:
       path: data/koishi.db
-    assets-local: {}
+    assets-local:xttwhc: {}
   group:adapter:
-    ~adapter-dingtalk: {}
-    ~adapter-discord: {}
-    ~adapter-kook: {}
-    ~adapter-lark: {}
-    ~adapter-line: {}
-    ~adapter-mail: {}
-    ~adapter-matrix: {}
-    ~adapter-qq: {}
-    ~adapter-satori: {}
-    ~adapter-slack: {}
-    ~adapter-telegram: {}
-    ~adapter-wechat-official: {}
-    ~adapter-wecom: {}
-    ~adapter-whatsapp: {}
-    ~adapter-zulip: {}
+    ~adapter-dingtalk:gmrq6h: {}
+    ~adapter-discord:nnf2dn: {}
+    ~adapter-kook:cmmluj: {}
+    ~adapter-lark:tcjbsn: {}
+    ~adapter-line:emi3do: {}
+    ~adapter-mail:v4zwo8: {}
+    ~adapter-matrix:3gux8u: {}
+    ~adapter-qq:lezo93: {}
+    ~adapter-satori:drp0y3: {}
+    ~adapter-slack:zattt3: {}
+    ~adapter-telegram:zjkcnn: {}
+    ~adapter-wechat-official:4sodmx: {}
+    ~adapter-wecom:8zgg6k: {}
+    ~adapter-whatsapp:p6lz5k: {}
+    ~adapter-zulip:nuirjy: {}
   group:develop:
     $if: env.NODE_ENV === 'development'
-    hmr:
-      root: '.'
+    hmr:71qbim:
+      root: .
+  mahjong-utils:9kucbt: {}
